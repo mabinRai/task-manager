@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="header-div" class="header">
+        <h2 style="margin: 5px">Task Management</h2>
+        <input type="text" id="input-title" placeholder="Title..." />
+        <span onclick="addNewElement()" class="addBtn">Add</span>
+      </div>
+
+      <ul id="ul-main">
+        <li>submit the assignment</li>
+        <li>Pass the interview</li>
+        <li>Get selected</li>
+        <li>Finish full-stack course</li>
+        <li>Practice more and do some side project</li>
+        <li>Land a job</li>
+      </ul>
+      <div class="clear-button-container">
+        <button class="clear-button" onclick="clearAll()">Clear all</button>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
